@@ -1,12 +1,13 @@
 import Footer from "./components/Footer"
 import Header from "./components/Header"
-import Note from "./components/Note"
+import NotesArea from "./components/NotesArea"
+
 
 function App() {
   return (
     <>
       <Header/>
-      <Note/>
+      <NotesArea/>
       <Footer/>
     </>
   )
